@@ -32,7 +32,7 @@ requirements:
     - docstring_parser >=0.15.0,<0.16.0
     - anndata >=0.8.0,<=0.9.1
   run_constrained:
-    - Pillow >=9.1.1,<10.0.0
+    - Pillow >=9.1.1
     - imageio-ffmpeg >=0.4.7,<0.5.0
     - scikit-image >=0.19
     - napari-segment-blobs-and-things-with-membranes >=0.3.3,<0.4.0
