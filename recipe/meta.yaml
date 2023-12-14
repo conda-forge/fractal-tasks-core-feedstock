@@ -1,5 +1,5 @@
 {% set name = "fractal-tasks-core" %}
-{% set version = "0.13.1" %}
+{% set version = "0.14.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fractal_tasks_core-{{ version }}.tar.gz
-  sha256: f930d2cf68f33f4a528d3032de2b58730d2ded9bdf80ebb1a90c6fb23ed35830
+  sha256: 1eedc0f62de411af68bc21ebe65b401026271ec2e858459261f7b5247389b807
 
 build:
   noarch: python
@@ -32,7 +32,7 @@ requirements:
     - docstring_parser >=0.15.0,<0.16.0
     - anndata >=0.8.0,<=0.9.1
   run_constrained:
-    - Pillow >=9.1.1,<10.0.0
+    - Pillow >=9.1.1
     - imageio-ffmpeg >=0.4.7,<0.5.0
     - scikit-image >=0.19
     - napari-segment-blobs-and-things-with-membranes >=0.3.3,<0.4.0
