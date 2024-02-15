@@ -1,5 +1,5 @@
 {% set name = "fractal-tasks-core" %}
-{% set version = "0.14.1" %}
+{% set version = "0.14.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fractal_tasks_core-{{ version }}.tar.gz
-  sha256: a2cbdf13fcb48c0d5e873f3f6d3d030839b7b9a54e73bb57d75b71c79d942b7b
+  sha256: 62858eaf6527b605ded1337bd6ae0954c2d7af7be361d5f423967763d48c62e1
 
 build:
   noarch: python
