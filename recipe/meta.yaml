@@ -60,4 +60,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - jluethi
+    - mfranzon
     - tcompa
