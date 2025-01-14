@@ -32,6 +32,7 @@ requirements:
     - docstring_parser >=0.15.0,<0.16.0
     - anndata >=0.8.0,<0.11.0
     - filelock 3.13.*
+    - ngio 0.1.4
   run_constrained:
     - Pillow >=9.1.1
     - imageio-ffmpeg >=0.4.7,<0.5.0
