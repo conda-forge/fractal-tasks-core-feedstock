@@ -147,6 +147,3 @@ Feedstock Maintainers
 * [@mfranzon](https://github.com/mfranzon/)
 * [@tcompa](https://github.com/tcompa/)
 
-
-<!-- dummy commit to enable rerendering -->
-
